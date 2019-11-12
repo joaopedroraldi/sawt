@@ -1,0 +1,140 @@
+html,
+body {
+    height: 100%;
+    /* needed for container min-height */
+}
+.error404 {
+    width: 100%;
+}
+.img-avatar{
+    padding: 2px;
+    background-color: #e7ebf9;
+    border: 1px solid #ddd;
+}
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/background-desktop.jpg) ;
+    background-size:cover;
+}
+#texture{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background-image: url(../img/texture.png);
+}
+.login-panel {
+    border: 0 !important;
+}
+.login-panel .panel-heading{
+    background-color: #a97fe2 !important;
+    background-image:linear-gradient(to right, #8e7fe2, #a97fe2, #7fa3e2);
+}
+.panel-title{
+    color: #fff;
+}
+
+.navbar-static-top {
+    background-color: #a97fe2 !important;
+    background-image:linear-gradient(to right, #8e7fe2, #a97fe2, #7fa3e2);
+}
+.navbar-brand {
+    padding: 6px 46px !important;
+}
+.navbar-brand img {
+    max-height: 38px;
+}
+.panel-heading img {
+    max-width: 200px;
+}
+.navbar-toggle {
+    background-color: #fff;
+}
+.dropdown-toggle, #logout-admin, li .limpar-selecao{
+    color: #ffffff;
+}
+#logout-admin:hover , li .limpar-selecao:hover{
+    color: #22527b;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #f4f4f4;
+}
+.pencil {
+    background: #337AB7;
+    width: 100%;
+    display: inline-block;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pencil:hover {
+    background: #3b87c8;
+}
+.pencil img {
+    width: 16px;
+    margin: 5px;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.cadastrar {
+    margin-left: 15px;
+}
+table {
+    width: 100% !important;
+}
+.btn-primary {
+    color: #fff !important;
+}
+.ul-principal{
+    margin-top: 8px;
+    padding-bottom: 8px;
+    border-bottom: solid 1px #cccccc;
+    padding-left: 20px;
+}
+.ul-principal li{
+    margin-bottom: 8px;
+}
+li label{
+    font-weight: normal;
+    padding: 3px;
+}
+.selecionado{
+    color: #337AB7;
+    font-weight: bold;
+}
+.info{
+    color: #337AB7;
+    font-size: 16px;
+    cursor: pointer;
+}
+.info:hover{
+    color: #285f8f;
+    font-size: 16px;
+}
+.info-text{
+    display: none;
+}
+@media (min-width: 768px) {
+    .observacao{
+        width: 75% !important;
+    }
+}
+.valorParcelas{
+    border: 0;
+    background: #fff;
+}
+.list-group {
+  margin-bottom: 0 !important;
+}
+.badge {
+  background-color: #337ab7 !important;
+}

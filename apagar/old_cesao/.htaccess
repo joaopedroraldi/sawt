@@ -1,0 +1,10 @@
+DirectoryIndex admin.php
+
+#AddDefaultCharset ISO-8859-1
+
+#RewriteBase /sawt/
+
+#RewriteEngine on
+
+#RewriteRule ^([a-z\-]+)$ admin.php?menu=$1
+#RewriteRule ^([a-z\-]+)/([a-z\-]+)$ admin.php?menu=$1&submenu=$2
